@@ -1,15 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core'
 
 @Component({
   selector: 'app-snippet-adder',
   templateUrl: './snippet-adder.component.html',
-  styleUrls: ['./snippet-adder.component.sass']
+  styleUrls: ['./snippet-adder.component.sass'],
 })
 export class SnippetAdderComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
+  ngOnInit() {}
 
-  ngOnInit() {
-  }
-
+  addSnippet = () => {}
 }
